@@ -1,0 +1,53 @@
+.triangle {
+  position: relative;
+  margin-left: 1rem;
+  width: 0;
+  height: 0;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-bottom: 40px solid #ff0000;
+}
+.circle {
+  width: 25px;
+  height: 25px;
+  background-color: #ffffff;
+  border-radius: 50%;
+  position: absolute;
+  top: 15px;
+  left: 2.5%;
+  transform: translateX(-50%);
+}
+
+.home-row {
+  min-height: 80vh;
+}
+
+.card,
+.contact-row {
+  width: 85%;
+}
+
+.btn {
+  height: 3rem;
+}
+
+#image {
+  height: 300px;
+}
+
+footer {
+  height: 10vh;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.projects-container,
+.services-container,
+.contact-container,
+.about-row {
+  flex-grow: 1;
+}
